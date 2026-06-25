@@ -41,15 +41,13 @@ function Register() {
       setLoading(true);
 
       const response =
-        await axios.post(
-          "https://railgpt-backend.onrender.com/register",
-          {
-            name,
-            email,
-            mobile,
-            password,
-          }
-        );
+        import { API_URL } from "../config";
+
+await axios.post(
+  `${API_URL}/register`,
+  data
+);
+        
 
       if (
         response.data.success
