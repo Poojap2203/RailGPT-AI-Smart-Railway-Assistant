@@ -42,7 +42,7 @@ function Register() {
 
       const response =
         await axios.post(
-          "http://127.0.0.1:8000/register",
+          "http://https://railgpt-backend.onrender.com/register",
           {
             name,
             email,
