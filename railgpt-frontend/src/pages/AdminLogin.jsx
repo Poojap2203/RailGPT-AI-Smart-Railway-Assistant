@@ -31,7 +31,7 @@ function AdminLogin() {
     try {
       const response =
         await axios.post(
-          "http://https://railgpt-backend.onrender.com/login",
+          "https://railgpt-backend.onrender.com/login",
           {
             username,
             password,

@@ -25,7 +25,7 @@ function AdminDashboard() {
     try {
       const response =
         await axios.get(
-          "http://https://railgpt-backend.onrender.com/users"
+          "https://railgpt-backend.onrender.com/users"
         );
 
       setUsers(response.data);

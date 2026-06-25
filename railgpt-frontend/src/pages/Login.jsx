@@ -36,7 +36,7 @@ function Login() {
 
       const response =
         await axios.post(
-          "http://https://railgpt-backend.onrender.com/login",
+          "https://railgpt-backend.onrender.com/login",
           {
             email,
             password,
