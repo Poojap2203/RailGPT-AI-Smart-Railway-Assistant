@@ -1,6 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
 
+
+
+// other imports...
+
 import {
   Box,
   Paper,
@@ -41,13 +45,15 @@ function Register() {
       setLoading(true);
 
       const response =
-        import { API_URL } from "../config";
-
-await axios.post(
-  `${API_URL}/register`,
-  data
-);
-        
+        await axios.post(
+          "https://railgpt-backend.onrender.com/register",
+          {
+            name,
+            email,
+            mobile,
+            password,
+          }
+        );
 
       if (
         response.data.success
