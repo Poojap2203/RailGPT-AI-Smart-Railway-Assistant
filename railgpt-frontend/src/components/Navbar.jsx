@@ -45,18 +45,27 @@ const adminName =
     >
       <Toolbar
         sx={{
-          minHeight: "500px",
-          px: {
-            xs: 2,
-            md: 5,
-          },
+          minHeight: {
+  xs: 70,
+  md: 90,
+},
         }}
       >
         {/* Logo */}
         <Box
           sx={{
-            width: 56,
-            height: 56,
+            width: {
+  xs: 45,
+  md: 60,
+},
+height: {
+  xs: 45,
+  md: 60,
+},
+fontSize: {
+  xs: "1.5rem",
+  md: "2rem",
+},
             borderRadius: 2,
             background:
               "linear-gradient(135deg,#FFB38A,#F4A261)",

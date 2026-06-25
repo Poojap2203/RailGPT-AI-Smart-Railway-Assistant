@@ -42,7 +42,7 @@ function Register() {
 
       const response =
         await axios.post(
-          "http://https://railgpt-backend.onrender.com/register",
+          "https://railgpt-backend.onrender.com/register",
           {
             name,
             email,

@@ -46,7 +46,7 @@ uvicorn main:app --reload
 ```
 
 Backend runs on:
-http://127.0.0.1:8000
+http://railgpt-backend.onrender.com
 
 ## Features
 - User Registration
